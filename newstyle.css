@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Delius');
+
+body{
+	font-family: "Delius" !important;
+}
+
+#header .htop { 
+	background:#3e7cb4; 
+}
+
+.header-row {
+	position:relative;
+	padding:35px 0;
+	width: 73%;
+	margin: 0px auto;
+}
+
+.header-contact {
+	color: #f890b9;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#header .header-row .inner { padding:0; }
+#header #logo img { display:inline-block!important; }
+#header ul, #header ol {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.table-container {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.table-container .col-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+
+@media (max-width: 991px) {
+.table-container .col-table-cell {
+float:left;
+vertical-align: middle;
+}
+
+#header .header-row {
+text-align:center;
+padding:30px 0;
+}
+}
